@@ -1,0 +1,47 @@
+body {
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+div.post {
+    width: 400px;
+    height: 550px;
+    background: white;
+}
+p {
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.post-header, img {
+    display: flex;
+    height: 30px;
+    margin: 5px;
+}
+div.user, p {
+    text-align: left;
+    margin-left: 1px;
+    margin-top: 5px
+}
+div.ellipsis {
+    height: 50px;
+    margin-left: auto;
+}
+#main {
+    height: 300px;
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+}
+div.icon-row {
+    display: flex;
+    margin-top: 5px;
+}
+div.bookmark {
+    margin-left: auto;
+}
+div.liked {
+    margin-left: 5px;
+}
+div.paragraph {
+    margin: 5px;
+}
